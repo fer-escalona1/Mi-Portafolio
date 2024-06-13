@@ -4,10 +4,19 @@ header{
     background-position: center;
 }
 
-.letra-color { background: linear-gradient(to right, rgb(255, 1, 162),rgb(32, 140, 255)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; }
+.letra-color { 
+    background: linear-gradient(to right, rgb(255, 1, 162),rgb(32, 140, 255)); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+ }
 
 .resize{
     font-size: 3rem;
     padding: 5px 10px;
     color: cornflowerblue;
+}
+
+
+.img-proyecto{
+    width: 100%;
 }
