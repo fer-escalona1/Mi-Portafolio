@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-black text-white">
+    <nav class="navbar fixed-top navbar-expand-lg bg-black text-white">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Fer Escalona</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,7 +39,7 @@
                         <a class="text-white nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-white nav-link" href="#">Testimonios</a>
+                        <a class="text-white nav-link" href="#testimonios">Testimonios</a>
                     </li>
                     <li class="nav-item">
                         <a class="text-white nav-link" href="#">Contacto</a>
@@ -51,8 +51,7 @@
     <header class="vh-100 d-flex flex-column justify-content-center">
         <div class="p-5 text-left text-white">
             <div class="container py-5">
-                <h1 class="display-5 fw-bold letra-color text-white">Fernanda Escalona</h1>
-                <h2 class="text-white letra-color">Desarrolladora Frontend JR</h2>
+                <h1 id="app" class="display-5 fw-bold letra-color text-white">Fernanda Escalona</h1>
 
                 <p class="col-lg-8 lead w-50 mt-3 ">
                     Soy una desarrolladora frontend junior que disfruta de hacer el diseño interfaces bonitas y funcionales. 
@@ -119,7 +118,7 @@
             </div>
         </section>
 
-        <section id="Proyectos">
+        <section id="proyectos">
             <div class="album py-5 bg-body-tertiary">
                 <div class="container">
                     <h2 class="my-5 border-bottom pb-2">Proyectos</h2>
@@ -199,7 +198,8 @@
             </div>
         </section>
 
-        <section id="Testimonios">
+        <section id="testimonios" class="container">
+          <h2 class="my-5">Testimonios</h2>
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -213,6 +213,11 @@
                 <!-- Sección editable del carrusel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active " data-bs-interval="10000">
+
+                      <div class="d-flex justify-content-center">
+
+                      
+
                         <div class="card mb-3 border-0" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -228,9 +233,11 @@
                                 </div>
                             </div>
                         </div>
+                      </div>
                     </div>
 
                     <div class="carousel-item " data-bs-interval="2000">
+                      <div class="d-flex justify-content-center">
                         <div class="card mb-3 border-0" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -246,9 +253,11 @@
                                 </div>
                             </div>
                         </div>
+                      </div>
                     </div>
 
                     <div class="carousel-item" >
+                      <div class="d-flex justify-content-center">
                         <div class="card mb-3 border-0" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -264,6 +273,7 @@
                                 </div>
                             </div>
                         </div>
+                      </div>
                     </div>
 
                 </div>
@@ -281,15 +291,52 @@
                 </button>
             </div>
         </section>
+
+        <section id="contacto">
+          <footer>
+            <div class="px-4 py-5 my-5 text-center">
+              <i class="bi-file-code icono-contacto"></i>
+              <div class="col-lg-6 mx-auto">
+                <h4>Estoy emocionada por lo que podemos lograr juntos.</h4>
+                <h5 class="display-6 fw-bold text-body-emphasis" onclick="this.innerHTML='Puedes utilizar las redes de abajo'">Contáctame</h5>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <i class="bi-github icono-contacto"></i>
+                  <i class="bi-instagram icono-contacto"></i>
+                  <i class="bi-linkedin icono-contacto"></i>
+                  <i class="bi-facebook icono-contacto"></i>
+                  <i class="bi-twitter-x icono-contacto"></i>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+
     </main>
 
-    <footer id="contacto">
-        >
+    <footer>
+      <footer class="d-flex flex-wrap justify-content-end me-3 align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Tecnolochicas PRO, Fernanda Escalona </span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+         <p>mm olis</p>
+        </ul>
+      </footer>
     </footer>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
