@@ -1,27 +1,79 @@
-header{
-    background-image: url(assets/bachichaSinFondo.png),linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+
+header {
+    background-image:  url("fondo.jpg");
+
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
-.letra-color { 
-    background: linear-gradient(to right, rgb(255, 1, 162),rgb(32, 140, 255)); 
-    -webkit-text-fill-color: transparent; 
+
+.letra-color1 {
+    background: linear-gradient(to right,rgb(255, 1, 162), rgb(45, 224, 255),rgb(32, 140, 255)); 
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
- }
-
-.resize{
-    font-size: 3rem;
-    padding: 5px 10px;
-    color: cornflowerblue;
 }
+
+.letra-color2 {
+    background: linear-gradient(to right,rgb(255, 1, 162),rgb(213, 121, 231),rgb(32, 203, 255)); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.icono-gigante {
+    font-size: 2rem;
+    padding: 5px 10px;
+}
+
 
 
 .img-proyecto{
     width: 100%;
 }
+
 .icono-contacto{
-    font-size: 3rem;
-    margin: 6px;
+    font-size: 2rem;
+    color: black;
+    margin: 10px 10px;
 }
+
+#contacto{
+    min-height: 80vh;
+}
+
+.span {
+    font-size: 1.25rem; /* Ajusta el tamaño de la fuente */
+    padding: 0.75rem 1.5rem; /* Ajusta el padding */
+    margin: 0.5rem; /* Ajusta el margen para la separación */
+}
+
+#carouselExampleDark .carousel-control-prev,
+#carouselExampleDark .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel {
+    width: 1000px;
+    height: 250px; /* Ajusta el valor según tus necesidades */
+}
+
+header .profile-pic {
+    position: absolute;
+    top: 50%;
+    right: 300px; /* Ajusta este valor según sea necesario */
+    transform: translateY(-50%);
+    width: 250px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 250px; /* Asegúrate de que sea un cuadrado para mantener la forma circular */
+}
+
+header .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 

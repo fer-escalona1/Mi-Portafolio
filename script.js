@@ -1,14 +1,4 @@
-/*const edad=2;
-let n=0;
-//alert(edad)
-//entrada: prompt
-//salida: console.log
-//entrada y salida: DOM Document
 
-n = prompt('Qué número quieres multiplicar a 2')
-console.log(edad*n)
-
-console.log(['Frida', 'Camila', 'Fer'].sort())*/
 
 let app = document.getElementById('app');
 
