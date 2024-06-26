@@ -63,7 +63,7 @@ header {
 header .profile-pic {
     position: absolute;
     top: 50%;
-    right: 300px; /* Ajusta este valor según sea necesario */
+    right: 100px; /* Ajusta este valor según sea necesario */
     transform: translateY(-50%);
     width: 250px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: 250px; /* Asegúrate de que sea un cuadrado para mantener la forma circular */
